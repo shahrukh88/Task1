@@ -17,11 +17,10 @@ function find_longest_word(str)
           
         if(count>count2){
             result = array1[x];
-            console.log(result)
+
         }
         else if(count< count2){
             result = result2;
-            console.log(result)
         }
    }        
         
@@ -29,7 +28,7 @@ function find_longest_word(str)
   }
   return result;
 }
-find_longest_word('Smart people learn from everything and everyone, average people from their experience, stupid people already, have all the answers');
+console.log (find_longest_word('Smart people learn from everything and everyone, average people from their experience, stupid people already, have all the answers'));
 
 
 
